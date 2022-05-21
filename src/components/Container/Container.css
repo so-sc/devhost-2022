@@ -1,0 +1,6 @@
+.container {
+	max-width: 1410px;
+	width: 90%;
+	height: 100%; /* might have to chnge this */
+	margin: 0 auto;
+}
