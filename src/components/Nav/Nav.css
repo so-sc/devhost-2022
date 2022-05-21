@@ -1,0 +1,36 @@
+@import url(../../styles/base.css);
+
+.nav{
+	background-color: var(--clr-red);
+	height: 7vh;
+}
+
+.nav-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+
+.nav-logo {
+	height: 100%;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	width: 25%;
+	color: var(--clr-background);
+	font-size: 1.1rem;
+	font-family: var(--ff-bebas-nue);
+}
+
+a {
+	color: var(--clr-background);
+}
+
+a:hover {
+	text-decoration: underline;
+	/* color: var(--clr-background); */
+}
