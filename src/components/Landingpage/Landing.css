@@ -1,0 +1,106 @@
+@import url(../../styles/base.css);
+@import url(../../styles/variables.css);
+
+.landing {
+    /* border: 2px solid black; */
+    background-color: var(--clr-red);
+    height: 507px;
+    width: auto;
+}
+
+.landing-section {
+    /* border: 2px solid rgb(255, 238, 0); */
+    width: auto;
+    height: 507px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.landing-content {
+    /* border: 3px solid greenyellow; */
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.5rem;
+}
+
+.tagline {
+    margin-top: 0.5rem;
+    font-family: var(--ff-open-sans);
+    font-weight: 600;
+    font-size: 1.3rem;
+    letter-spacing: 0.1em;
+    color: var(--clr-background);
+    line-height: 41px;
+}
+
+.dates {
+    font-family: var(--ff-bebas-nue);
+    font-size: 24px;
+    color: var(--clr-background);
+    line-height: 31px;
+    letter-spacing: 0.05em;
+}
+
+.btns {
+    /* border: 2px solid yellow; */
+    padding: 1.2rem 1.2rem;
+    display: flex;
+    width: 50%;
+    margin: 1.75rem auto;
+}
+
+button {
+    cursor: pointer;
+    width: 250px;
+    height: 25px;
+    border-radius: 0px;
+    margin: 0rem 1.2rem;
+    padding: 0.2rem;
+    font-family: var(--ff-open-sans);
+}
+
+
+.btns button:first-child {
+    border: 2px solid;
+    background-color: var(--clr-background);
+    box-shadow: 3px 3px 0px var(--clr-background);
+}
+
+.btns button:last-child {
+    background-color: black;
+    color: var(--clr-background);
+    box-shadow: 3px 3px 0px black;
+}
+
+.landing-info {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: 40vh;
+    margin: -3rem 0rem;
+}
+
+.event-info {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 350px;
+    height: 240px;
+    box-shadow: 4px 4px 0px black;
+    background-color: var(--clr-background);
+    padding: 1.2rem;
+}
+
+.event-info h2 {
+    font-family: var(--ff-open-sans);
+    line-height: 33px;
+}
+
+.event-info p {
+    margin-top: 1.2rem;
+    font-family: var(--ff-open-sans);
+}
