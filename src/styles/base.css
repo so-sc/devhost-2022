@@ -57,3 +57,14 @@ h2 {
 a {
   text-decoration: none;
 }
+
+p{
+  font-size: 1.3rem;
+
+}
+
+@media screen and (max-width: 550px) {
+  p{
+    font-size: 1.1rem;
+  }
+}

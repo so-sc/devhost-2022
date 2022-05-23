@@ -1,5 +1,9 @@
 @import url(../../styles/base.css);
 
+.speakers{
+	margin-top: 250px;
+}
+
 .speaker-card{
 	display: flex;
 	box-shadow: 5px 5px 0px var(--clr-black);
