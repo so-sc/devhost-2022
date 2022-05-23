@@ -4,29 +4,32 @@ import './Landing.css'
 // import navLogo from '../../assets/nav-logo.png';
 // import Container from '../Container/Container.js';
 import lanlogo from '../../assets/lanlog.png'
+import Container from '../Container/Container';
 
 
 function Landingpage() {
   return (
     <section className='landing'>
+      <Container>
+
       <div className='landing-section'>
         <div className='landing-content'>
-          <div className="lan-logo">
-            <img src={lanlogo} alt="devhost 2022 landing logo" />
-          </div>
-          <div className='tagline'>
-            <p>
+          {/* <div > */}
+          <img className="lan-logo" src={lanlogo} alt="devhost 2022 landing logo" />
+          {/* </div> */}
+          {/* <div > */}
+            <p className='tagline'>
               Student Developers Meet
             </p>
-          </div>
-          <div className='dates'>
-            <p>
+          {/* </div> */}
+          {/* <div > */}
+            <p className='dates'>
               June 01 - June 02
             </p>
-          </div>
+          {/* </div> */}
           <div className='btns'>
             <button>Register now</button>
-            <button>Nope</button>
+            {/* <button>N</button> */}
           </div>
         </div>
       </div>
@@ -53,6 +56,9 @@ function Landingpage() {
           </p>
         </div>
       </div>
+      
+      
+      </Container>
     </section>
 
   );

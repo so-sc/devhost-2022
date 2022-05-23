@@ -20,21 +20,30 @@
 
 .landing-content {
     /* border: 3px solid greenyellow; */
-    width: auto;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 3.5rem;
 }
 
+.lan-logo {
+    width: auto;
+    padding: 0em 3em;
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+
 .tagline {
     margin-top: 0.5rem;
     font-family: var(--ff-open-sans);
     font-weight: 600;
-    font-size: 1.3rem;
+    /* font-size: 1.3rem; */
     letter-spacing: 0.1em;
     color: var(--clr-background);
     line-height: 41px;
+    text-align: center;
 }
 
 .dates {
@@ -43,46 +52,41 @@
     color: var(--clr-background);
     line-height: 31px;
     letter-spacing: 0.05em;
+    text-align: center;
 }
 
 .btns {
     /* border: 2px solid yellow; */
-    padding: 1.2rem 1.2rem;
     display: flex;
-    width: 50%;
-    margin: 1.75rem auto;
+    width: 250px;
+    margin: 2.2em auto;
+    display: flex;
+    justify-content: center;
 }
 
 button {
     cursor: pointer;
-    width: 250px;
-    height: 25px;
-    border-radius: 0px;
-    margin: 0rem 1.2rem;
-    padding: 0.2rem;
-    font-family: var(--ff-open-sans);
-}
-
-
-.btns button:first-child {
-    border: 2px solid;
+    width: 20em;
+    height: 2.5em;
+    border: 3px solid var(--clr-black);
+    margin: 0rem 1rem;
+    /* padding: 0.2rem; */
+    font-family: var(--ff-bebas-nue);
+    font-size: 1.5em;
     background-color: var(--clr-background);
-    box-shadow: 3px 3px 0px var(--clr-background);
+    box-shadow: 3px 3px 0px var(--clr-black);
 }
 
-.btns button:last-child {
-    background-color: black;
-    color: var(--clr-background);
-    box-shadow: 3px 3px 0px black;
-}
+
+
 
 .landing-info {
-    /* border: 2px solid black; */
+    border: 2px solid black;
     display: flex;
     justify-content: space-around;
-    width: auto;
+    max-width: 700px;
     height: 40vh;
-    margin: -3rem 0rem;
+    /* margin: -3rem 0rem; */
 }
 
 .event-info {

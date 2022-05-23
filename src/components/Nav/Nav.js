@@ -1,4 +1,3 @@
-import '../../styles/variables.css'
 import './Nav.css';
 import navLogo from '../../assets/nav-logo.png';
 import Container from '../Container/Container.js';
