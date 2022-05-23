@@ -34,3 +34,9 @@ a:hover {
 	text-decoration: underline;
 	/* color: var(--clr-background); */
 }
+
+@media screen and (max-width: 650px) {
+	ul {
+		display: none;
+	}
+}
