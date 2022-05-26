@@ -6,7 +6,7 @@ function About(){
     return(
         <div className='AboutBody'>
             <div className='About-img'>
-                <img  alt='img-abt' src={Giphy}></img>
+                <img alt='img-abt' src={Giphy}></img>
             </div>
             <div className='About-desc'>
               <div className='About-heading'>
