@@ -4,6 +4,7 @@ import Nav from './components/Nav/Nav.js'
 import Container from './components/Container/Container.js'
 import Landing from './components/Landingpage/Landing.js';
 import Speakers from './components/Speakers/Speakers.js'
+import Association from './components/Association/Association.js';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Landing/>
       <Container>
         <Speakers />
+        <Association/>
       </Container>
       
     </div>

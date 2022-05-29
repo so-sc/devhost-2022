@@ -13,7 +13,7 @@ function SpeakerCard( { item, index } ) {
 				<div className='speaker-desc'>{item.desc}</div>
 			</div>
 		</div>
-	);
+	); 
 }
 
 
