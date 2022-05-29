@@ -4,6 +4,7 @@ import './Landing.css'
 // import navLogo from '../../assets/nav-logo.png';
 // import Container from '../Container/Container.js';
 import lanlogo from '../../assets/lanlog.png'
+// import landingbg from '../../assets/devhost-landing.png'
 import Container from '../Container/Container';
 
 
@@ -11,26 +12,23 @@ import Container from '../Container/Container';
 function Landingpage() {
   return (
     <section className='landing'>
-      <div className='landing-bg'>
+      <div className='landing-bg-color'>
         <Container>
-          <div className='landing-section'>
-            <div className='landing-content'>
-              {/* <div > */}
-              <img className="lan-logo" src={lanlogo} alt="devhost 2022 landing logo" />
-              {/* </div> */}
-              {/* <div > */}
-              <p className='tagline'>
-                Student Developers Meet
-              </p>
-              {/* </div> */}
-              {/* <div > */}
-              <p className='dates'>
-                June 01 - June 02
-              </p>
-              {/* </div> */}
-              <div className='btns'>
-                <button>Register now</button>
-                {/* <button>N</button> */}
+          <div className='landing-bg'>
+            <div className='landing-transparent-bg'>
+              <div className='landing-section'>
+                <div className='landing-content'>
+                  <img className="lan-logo" src={lanlogo} alt="devhost 2022 landing logo" />
+                  <p className='tagline'>
+                    Student Developers Meet
+                  </p>
+                  <p className='dates'>
+                    June 23'rd - June 25'th
+                  </p>
+                  <div className='btns'>
+                    <button className='landing-button'>Register Now</button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -46,7 +44,7 @@ function Landingpage() {
                 will get to know about this lol, hi dhanush
               </p>
             </div>
-            <div className='event-info'>
+            <div className='event-info ew'>
               <h2>Exciting Workshops</h2>
               <p>
                 lorem ipsum lesgo bro fake lorem ipsum lmao kknow
