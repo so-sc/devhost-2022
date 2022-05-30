@@ -6,7 +6,7 @@
     flex-direction: row;
     align-items: stretch;
     justify-content: center;
-    margin: 10vh 0px;
+    margin-top: 150px;
 }
 
 .About-img{
@@ -39,14 +39,21 @@
     font-family: var(--ff-open-sans);
 }
 
+@media screen and (max-width: 1100px) {
+    .AboutBody{
+        margin-top:  400px;
+    }
+}
+
+
 @media only screen and (max-width: 900px) {
     .About-img {
         max-width: 300px;
     }
-
+/* 
     .AboutBody {
         margin-top: 10em;
-    }
+    } */
 }
 
 @media only screen and (max-width: 750px) {
@@ -55,12 +62,12 @@
     }
 
     .AboutBody {
-        margin-top: 60vh;
+        margin-top: 500px;
     }
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
 	.AboutBody {
 		flex-direction: column;
 	}
@@ -73,5 +80,31 @@
     .About-desc{
         margin: 5% 0px 0px 0px;
         width: 100%;
+    }
+}
+
+/* i just dont know how to make this responsive so here you go 100 media queries */
+
+@media only screen and (max-width: 400px) {
+	.AboutBody {
+		margin-top: 570px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+	.AboutBody {
+		margin-top: 650px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+	.AboutBody {
+		margin-top: 700px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+	.AboutBody {
+		margin-top: 800px;
     }
 }
