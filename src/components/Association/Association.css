@@ -2,15 +2,14 @@
 
 
 .association{
-	margin-top: 5em;
+	margin-top: 15em;
 }
-
 
 .association-box{
 	display: flex;
     /* border: 2px solid black; */
     width: auto;
-	margin-top: 1.5em;
+	margin-top: 4em;
     height: 400px;
 	justify-content: center;
 }
@@ -19,20 +18,39 @@
 	display: flex;
 	margin-top: 1em;
 	padding: 0.2em;
+	margin: 3em 1em;
+	/* width: 250px; */
+    /* height: 150px; */
 }
 
 .asso-img{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	width: 50em;
+	width: fit-content;
+	height: max-content;
+	border: 2px solid black;
+	background-color: white;
+	box-shadow: 5px 5px 0px black;
 }
-
 
 .association-img{
     /* background-color: var(--clr-grey); */
 	/* width: 600px; */
-	width: 100%;
+	width: 151px;
 	height: 120px;
-	/* object-fit: cover; */
+	margin: 1em 3em ;
+
+}
+
+@media screen and (max-width: 650px) {
+	.association-card {
+		flex-direction: column;
+	} 
+	
+	.association-img {
+		width: auto;
+		/* border-right: 0px solid var(--clr-black); */
+		/* border-bottom: 3px solid var(--clr-black); */
+	}
 }

@@ -18,11 +18,10 @@ function Associationcard({ item, index }) {
 }
 
 
-
 function Association() {
     return (
         <div className='association'>
-            <h1>Associations</h1>
+            <h1>In Association</h1>
             <div className='association-box'>
                 <ul className='asso-img'>
                     {associationLists.map((item, index) => {

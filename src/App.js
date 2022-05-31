@@ -6,6 +6,8 @@ import AboutBody from './components/About/About.js'
 import Landing from './components/Landingpage/Landing.js';
 import Speakers from './components/Speakers/Speakers.js'
 import Association from './components/Association/Association.js';
+import Sponsors from './components/Sponsors/Sponsors.js';
+import Footer from './components/Footer/Footer.js';
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
         <AboutBody/>
         <Speakers />
         <Association/>
+        <Sponsors/>
       </Container>
+      <Footer/>
       
     </div>
   );

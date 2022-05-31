@@ -1,21 +1,41 @@
-import '../../styles/variables.css'
-import './Nav.css';
-import navLogo from '../../assets/nav-logo.png';
-import Container from '../Container/Container.js';
+// import '../../styles/variables.css'
+// import './Association.css';
+// import { associationLists } from './Associationlist';
+import {sponsorsList} from './SponsorsList';
+import './Sponsors.css';
+// import './Landing.css'
+// import './Nav.css';
+// import navLogo from '../../assets/nav-logo.png';
+// import Container from '../Container/Container.js';
+// import lanlogo from '../../assets/lanlog.png'
+// import Container from '../Container/Container';
 
-function Nav() {
-	return (
-		<Container>
-			<div className='nav-content'>
-				<img className="nav-logo" src={navLogo} alt="devhost 2022 navbar logo" />
-				<ul className='nav-items'>
-					<li><a href='https://github.com/so-sc/code-of-conduct'>Community Guidlines</a></li>
-					<li><a href='https://github.com/so-sc/code-of-conduct'>Code of Conduct</a></li>
-					<li><a href='https://github.com/so-sc/code-of-conduct'>Contact</a></li>
-				</ul>
-			</div>
-		</Container>
-	);
+
+function Sponsorscard({ item, index }) {
+    return (
+        <div className="sponsors-card">
+            <img className='sponsors-img' src={item.img} alt={`${item.name} `} />
+        </div>
+    );
 }
 
-export default Nav;
+
+function Sponsors() {
+    return (
+        <div className='sponsors'>
+            <h1>Sponsors</h1>
+            <div className='sponsors-box'>
+                <ul className='sponsor-img'>
+                    {sponsorsList.map((item, index) => {
+                        return (
+                            <Sponsorscard item={item} index={index} key={index} />
+                        );
+                    })}
+                </ul>
+            </div>
+        </div>
+
+    );
+}
+
+export default Sponsors;
