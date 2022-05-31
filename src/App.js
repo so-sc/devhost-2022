@@ -5,6 +5,7 @@ import Container from './components/Container/Container.js'
 import AboutBody from './components/About/About.js'
 import Landing from './components/Landingpage/Landing.js';
 import Speakers from './components/Speakers/Speakers.js'
+import Events from './components/Events/Events'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Container>
         <AboutBody/>
         <Speakers />
+        <Events/>
       </Container>
       
     </div>
