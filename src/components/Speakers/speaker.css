@@ -1,7 +1,7 @@
 @import url(../../styles/base.css);
 
 .speakers{
-	margin-top: 250px;
+	margin: 10vh 0px;
 }
 
 .speaker-card{

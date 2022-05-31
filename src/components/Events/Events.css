@@ -1,0 +1,68 @@
+.EventCard{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding-left: 30px;
+    border: 4px solid var(--clr-black);
+    box-shadow: 5px 5px 0px var(--clr-black);
+    margin-bottom: 150px;
+    margin-top: 50px;
+    height: 492px;
+    width: 1301px;
+}
+.Event-body{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.Event-role{
+    font-size: 32px;
+    color: var(--clr-red);
+}
+.Event-heading{
+    font-size: 65px;
+    font-family: var(--ff-bebas-nue);
+    text-decoration: underline;
+}
+.Event-time{
+    font-size: 20px;
+    color: var(--clr-red);
+    margin-bottom: 50px;
+}
+.Event-desc{
+    font-size: 25px;
+    width: 702px;
+    height: 484px;
+    margin-right: 66px;
+}
+.Event-speaker{
+    position: relative;
+    height: 484px;
+    border-left: 6px solid var(--clr-black);
+}
+.name-tag{
+    display: flex;
+    position: relative;
+    bottom: 150px;
+    left: 260px;
+    height: 50px;
+    width: 230px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--clr-white);
+    box-shadow: 3px 4px 0px var(--clr-black);
+    border-radius: 30px;
+    border: 1px solid var(--clr-black);
+}
+.Event-speaker-name{
+    font-size: 28px;
+    margin-right: 25px;
+    color: var(--clr-black);
+}
+.tag{
+    height: 20px;
+    width: 20px;
+    background-color:  var(--clr-black);
+    border-radius: 50%;
+    justify-content: space-between;
+}

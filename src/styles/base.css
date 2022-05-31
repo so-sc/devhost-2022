@@ -47,24 +47,58 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
+}
+
+p{
+  font-size: 1.1rem;
+  font-family: var(--ff-open-sans);
+  /* font */
+}
+
+button {
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+}
+
+button:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--clr-red);
 }
 
 a {
   text-decoration: none;
+  color: var(--clr-white);
 }
 
-p{
-  font-size: 1.3rem;
+a:hover {
+  color: var(--clr-white);
+}
 
+a:visited {
+  color: var(--clr-white);
 }
 
 @media screen and (max-width: 550px) {
-  p{
-    font-size: 1.1rem;
+  
+  h1 {
+    font-size: 4rem;
   }
+
+  h2 {
+    font-size: 2rem;
+  }
+  
+  p{
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 1.25rem;
+  };
 }
