@@ -6,18 +6,18 @@ function EventCard ({item,index})  {
   return (
     <div className='EventCard'>
         <div className='Event-body'>
-            <h3 className='Event-role'>{item.role}</h3>
-            <span className='Event-heading'> {item.title} </span>
-            <h4 className='Event-time'> {item.time} </h4>
+            <h2 className='Event-role'>{item.role}</h2>
+            <h1 className='Event-heading'> {item.title} </h1>
+            <h3 className='Event-time'> {item.time} </h3>
             <p className='Event-desc'> {item.desc} </p>
         </div>
-        <div className='Event-speaker'>
+        <figure className='Event-speaker'>
             <img className='Event-img' src={item.img} alt={`${item.name} speaker`}/>
-            <div className='name-tag'>
-              <span className='tag'></span>
-              <h2 className='Event-speaker-name'>{item.name}</h2>
-            </div>
-        </div>
+            {/* <div className='name-tag'> */}
+              {/* <span className='tag'></span> */}
+              <figcaption className='Event-speaker-name'>{item.name}</figcaption>
+            {/* </div> */}
+        </figure>
     </div>
   );
 }
