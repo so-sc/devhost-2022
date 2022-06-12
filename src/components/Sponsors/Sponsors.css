@@ -43,14 +43,14 @@
 
 @media screen and (max-width: 1100px) {
     .sponsors{
-        margin-top: 6em;
+        margin-top: 10em;
     }
 }
 
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 950px) {
     .sponsors{
-        margin-top: 25em;
+        margin-top: 20em;
     }
 
     .sponsors-box{
@@ -62,9 +62,26 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+
+@media screen and (max-width: 650px) {
     .sponsors{
-        margin-top: 85em;
+        margin-top: 30em;
+    }
+
+    .sponsors-box{
+        max-width: 100%;
+    }
+
+    .sponsor-img{
+        flex-wrap: wrap;
+    }
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .sponsors{
+        margin-top: 78em;
     }
 
     .sponsors-card{
