@@ -37,20 +37,10 @@
 .association-img{
     /* background-color: var(--clr-grey); */
 	/* width: 600px; */
-	width: 151px;
-	height: 120px;
+	width: auto;
+	height: 60px;
 	margin: 1em 3em ;
 
 }
 
-@media screen and (max-width: 650px) {
-	.association-card {
-		flex-direction: column;
-	} 
-	
-	.association-img {
-		width: auto;
-		/* border-right: 0px solid var(--clr-black); */
-		/* border-bottom: 3px solid var(--clr-black); */
-	}
-}
+

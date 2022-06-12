@@ -3,11 +3,7 @@
 
 
 .sponsors {
-    margin-top: 30em;
-}
-
-.sponsors h1{
-    text-decoration: underline;
+    margin-top: 10em;
 }
 
 .sponsors-box {
@@ -43,4 +39,36 @@
     width: auto;
     height: 50px;
     margin: 1em 3em;
+}
+
+@media screen and (max-width: 1100px) {
+    .sponsors{
+        margin-top: 6em;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    .sponsors{
+        margin-top: 25em;
+    }
+
+    .sponsors-box{
+        max-width: 100%;
+    }
+
+    .sponsor-img{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .sponsors{
+        margin-top: 85em;
+    }
+
+    .sponsors-card{
+        justify-content: center;
+    }
+
 }

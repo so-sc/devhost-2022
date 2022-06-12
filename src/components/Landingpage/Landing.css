@@ -116,15 +116,6 @@
     color: var(--clr-white);
 }
 
-<<<<<<< HEAD
-.landing-info {
-    /* border: 2px solid black; */
-    display: flex;
-    justify-content: space-evenly;
-    max-width: 1200px;
-    height: 47vh;
-    margin: -3rem 0rem;
-=======
 .red-button:hover {
     text-decoration-color: var(--clr-white);
 }
@@ -142,7 +133,6 @@
     max-width: 1200px;
     display: flex;
     margin: 0px 2em;
->>>>>>> 396fd730e598923706fc41b43bd97a2fe2bd5fe7
 }
 
 .event-info {
