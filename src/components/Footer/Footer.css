@@ -1,0 +1,66 @@
+@import url(../../styles/base.css);
+@import url(../../styles/variables.css);
+
+footer {
+    background-color: #f1d5d5;
+    bottom: 0;
+    clear: both;
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.info-area {
+    margin-top: 10em;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1d5d5;
+    padding: 30px 0;
+}
+
+.column {
+    align-content: flex-start;
+    display: flex;
+    flex-basis: 33.33%;
+    flex-direction: column;
+    flex-grow: 0;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.column a {
+    color: var(--clr-red);
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.column a:hover{
+    color: white;
+    transition-duration: 0.2s;
+}
+
+.copyright-area {
+    /* height: 5vh; */
+    padding: 0.8rem 0;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: var(--clr-red);
+    font-family: var(--ff-open-sans);
+}
+
+@media screen and (max-width: 400px) {
+
+    .column {
+        font-size: 0.8rem;
+    }
+    .column p{
+        font-size: 0.8rem;
+    }
+
+    .copyright-area{
+        font-size: 0.8rem;
+    }
+
+}
