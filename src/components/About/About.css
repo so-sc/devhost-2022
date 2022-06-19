@@ -10,6 +10,8 @@
 }
 
 .About-img {
+  border: 5px solid var(--clr-black);
+  box-shadow: 5px 5px 0px var(--clr-black);
   width: 100%;
   max-width: 450px;
   height: auto;
@@ -55,17 +57,13 @@
     } */
 }
 
-@media only screen and (max-width: 750px) {
+/* @media only screen and (max-width: 750px) {
   .About-img {
     max-width: 200px;
   }
+} */
 
-  /* .AboutBody {
-    margin-top: 500px;
-  } */
-}
-
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 800px) {
   .AboutBody {
     flex-direction: column;
   }

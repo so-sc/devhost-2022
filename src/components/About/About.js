@@ -1,5 +1,5 @@
 import "../../styles/variables.css";
-import aboutImg from "../../assets/about.png";
+import aboutImg from "../../assets/about.JPG";
 import "./About.css";
 
 function About() {
