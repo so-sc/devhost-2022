@@ -6,7 +6,7 @@
     flex-direction: row;
     align-items: stretch;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 35rem;
 }
 
 .About-img{
@@ -87,7 +87,7 @@
 
 @media only screen and (max-width: 400px) {
 	.AboutBody {
-		margin-top: 570px;
+		margin-top: 620px;
     }
 }
 

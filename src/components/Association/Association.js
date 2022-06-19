@@ -21,7 +21,7 @@ function Associationcard({ item, index }) {
 function Association() {
     return (
         <div className='association'>
-            <h1>In Association</h1>
+            <h1><span className='headnum'>04.  </span>In Association</h1>
             <div className='association-box'>
                 <ul className='asso-img'>
                     {associationLists.map((item, index) => {

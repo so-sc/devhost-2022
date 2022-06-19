@@ -27,7 +27,7 @@ function Landingpage() {
                   </p>
                   <div className='btns'>
                     <button className='landing-button'>Register Now</button>
-                    <button className='landing-button red-button'>Register Now</button>
+                    {/* <button className='landing-button red-button'>Register Now</button> */}
                   </div>
                 </div>
               </div>

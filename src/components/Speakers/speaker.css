@@ -1,5 +1,9 @@
 @import url(../../styles/base.css);
 
+.headnum{
+	color: var(--clr-red);
+}
+
 .speakers{
 	margin: 10vh 0px;
 }

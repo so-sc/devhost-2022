@@ -1,5 +1,8 @@
 @import url(../../styles/base.css);
 
+.headnum{
+	color: var(--clr-red);
+}
 
 .association{
 	margin-top: 10em;

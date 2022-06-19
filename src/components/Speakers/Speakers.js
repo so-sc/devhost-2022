@@ -20,7 +20,7 @@ function SpeakerCard( { item, index } ) {
 function Speakers() {
 	return (
 		<div className='speakers'>
-			<h1>Speakers</h1>
+			<h1> <span className='headnum'>02.  </span>Previous Speakers</h1>
 			{/* <ul> */}
 					{speakersList.map((item, index) => {
 						return (
