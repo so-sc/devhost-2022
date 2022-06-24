@@ -50,7 +50,7 @@
 
 @media screen and (max-width: 950px) {
     .sponsors{
-        margin-top: 20em;
+        margin-top: 15em;
     }
 
     .sponsors-box{
@@ -65,7 +65,7 @@
 
 @media screen and (max-width: 650px) {
     .sponsors{
-        margin-top: 30em;
+        margin-top: 10em;
     }
 
     .sponsors-box{
@@ -81,7 +81,7 @@
 
 @media screen and (max-width: 400px) {
     .sponsors{
-        margin-top: 78em;
+        margin-top: 10em;
     }
 
     .sponsors-card{

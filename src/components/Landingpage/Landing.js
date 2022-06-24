@@ -23,11 +23,11 @@ function Landingpage() {
                     Student Developers Meet
                   </p>
                   <p className='dates'>
-                    June 23'rd - June 25'th
+                    July 14'th - July 16'th
                   </p>
                   <div className='btns'>
-                    <button className='landing-button'>Register Now</button>
-                    <button className='landing-button red-button'>Register Now</button>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLScs-UeEtvNAWTlbPGJxRy_ZNOB0Wzutr9mtUc0olLRiqmkfDA/viewform" target="_blank" rel="noreferrer"><button className='landing-button'>Register Now</button></a>
+                    {/* <button className='landing-button red-button'>Register Now</button> */}
                   </div>
                 </div>
               </div>
