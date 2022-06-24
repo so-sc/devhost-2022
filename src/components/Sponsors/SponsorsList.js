@@ -1,35 +1,27 @@
 export const sponsorsList = [
     {
-		img: require('../../assets/sponsors/bugsee.png'),
+		img: require('../../assets/sponsors/echo 3d.jfif'),
     },
     {
-		img: require('../../assets/sponsors/clouds.png'),
+		img: require('../../assets/sponsors/GAR.jfif'),
     },
     {
-		img: require('../../assets/sponsors/coffeehours.png'),
+		img: require('../../assets/sponsors/give my certificate.png'),
     },
     {
-		img: require('../../assets/sponsors/fold.png'),
+		img: require('../../assets/sponsors/hackclub flag.png'),
     },
     {
-		img: require('../../assets/sponsors/github.png'),
+		img: require('../../assets/sponsors/jetbrains.png'),
     },
     {
-		img: require('../../assets/sponsors/GMC.png'),
+		img: require('../../assets/sponsors/taskade.png'),
     },
     {
-		img: require('../../assets/sponsors/matic.png'),
+		img: require('../../assets/sponsors/Vue school.jfif'),
     },
     {
-		img: require('../../assets/sponsors/portis.png'),
+		img: require('../../assets/sponsors/xyz.png'),
     },
-    {
-		img: require('../../assets/sponsors/staise.png'),
-    },
-    {
-		img: require('../../assets/sponsors/tss.png'),
-    },
-    {
-		img: require('../../assets/sponsors/Wolfram.png'),
-    },
+
 ]
