@@ -13,7 +13,8 @@ function SpeakerCard({ item, index }) {
       />
       <div className="speaker-body">
         <h2 className="speaker-heading">
-          {index + 1}. {item.name}
+          {/* {index + 1}. {item.name} */}
+          {item.name}
         </h2>
         <p className="speaker-role">{item.role}</p>
         <p className="speaker-desc">{item.desc}</p>
