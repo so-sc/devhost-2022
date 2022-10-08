@@ -24,7 +24,9 @@ function EventCard ({item,index})  {
 function Events() {
 	return (
 		<div className='events'>
-			<h1>Events</h1>
+      <div className='main-head'>
+        <h1>Events</h1>
+      </div>
 			{/* <ul> */}
 					{EventList.map((item, index) => {
 						return (

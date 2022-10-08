@@ -10,8 +10,12 @@
 :root {
 	--clr-background: #F2EFE9;
 	--clr-white: #FFF;
+	--clr-clr1: #FFC700;
+	--clr-clr2: #32DAFF;
+	--clr-clr3: #5759FF;
 	--clr-cream: #F2EFE9;
 	--clr-grey: #CFCFCF;
+	--clr-prmbg: #0C0910;
 	--clr-red: #E12B37;
 	--clr-black: #000;
 	

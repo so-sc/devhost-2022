@@ -24,9 +24,10 @@
 }
 
 .landing-bg {
-  background-color: var(--clr-red);
-  background-image: url(../../assets/devhost-landing.png);
-  background-size: cover;
+  background-color: var(--clr-prmbg);
+  /* background-image: url(../../assets/devhost-landing.png); */
+  background-image: url(../../assets/DEVHOST-22.png);
+  background-size: 1300px 450px;
   box-shadow: 4px 4px 0px black;
   /* opacity: 0.5; */
   /* padding:  0px; */
@@ -135,7 +136,8 @@
 }
 
 .red-button {
-  background-color: var(--clr-red);
+  /* background-color: var(--clr-clr3); */
+  background-image: linear-gradient(to bottom right, var(--clr-clr1), var(--clr-clr2), var(--clr-clr3));
   color: var(--clr-white);
 }
 

@@ -4,9 +4,15 @@
   margin: 10vh 0px;
 }
 
+.speakers h1{
+  background: linear-gradient(to bottom right, var(--clr-clr1), var(--clr-clr2), var(--clr-clr3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .speaker-card {
   display: flex;
-  box-shadow: 5px 5px 0px var(--clr-black);
+  box-shadow: 5px 5px 0px var(--clr-white);
   border: 3px solid var(--clr-black);
   background-color: var(--clr-white);
   margin: 3em 0em;
@@ -41,7 +47,7 @@
 
 .speaker-heading {
   border-bottom: 3px solid var(--clr-black);
-  background-color: var(--clr-red);
+  background-color: var(--clr-prmbg);
   padding: 10px 20px;
   color: var(--clr-white);
   text-decoration: underline;
@@ -49,8 +55,8 @@
 
 .speaker-role {
   /* font-size: 1.1rem; */
+  font-family: 'Barlow', sans-serif;
   font-weight: 600;
-  color: var(--clr-grey);
   padding: 10px 20px;
 }
 
