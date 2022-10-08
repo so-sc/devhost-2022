@@ -24,7 +24,7 @@
 .landing-bg {
   background-color: var(--clr-prmbg);
   /* background-image: url(../../assets/devhost-landing.png); */
-  background-image: url(../../assets/DEVHOST-22.png);
+  background-image: url(../../assets/landingbg.png);
   background-size: 1300px 450px;
   box-shadow: 4px 4px 0px black;
   /* opacity: 0.5; */
@@ -36,7 +36,7 @@
 
 .landing-transparent-bg {
   /* background-color: var(--clr-red); */
-  background-color: rgba(0, 0, 0, 0.4);
+  /* background-color: rgba(0, 0, 0, 0.4); */
   /* background-image: url(../../assets/devhost-landing.png); */
   /* background-size: cover; */
   /* padding:  0px; */
