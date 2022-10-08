@@ -15,8 +15,8 @@
 
 .landing-bg-color {
   /* background-color: var(--clr-red); */
-  background-image: url(../../assets/bg.png);
-  background-size: contain;
+  /* background-image: url(../../assets/bg.png); */
+  /* background-size: contain; */
   /* background-image: url("../../assets/bg.png"); */
   padding: 2vh 0px 9vh 0px;
   /* border-bottom: 3px solid var(--clr-black); */
@@ -25,17 +25,17 @@
 }
 
 .landing-bg {
+  /* box-shadow: 4px 4px 0px var(--clr-white); */
   background-color: var(--clr-prmbg);
+  border: solid 3px var(--clr-white);
   background-image: url(../../assets/devhost-landing.png);
   background-size:cover;
   /* background-pos;   */
   /* background-image: url(../../assets/DEVHOST-22.png); */
   /* background-size: 1300px 450px; */
-  box-shadow: 4px 4px 0px black;
   /* opacity: 0.5; */
   /* padding:  0px; */
   /* border: solid 3px var(--clr-black); */
-  border: solid 3px var(--clr-white);
   /* box-shadow: rgba(255, 255, 255, 0.5) 0px 7px 29px 0px; */
   /* height: 70vh; */
   /* padding-top: 10vh; */
@@ -110,6 +110,7 @@
 
 .dates {
   font-family: var(--ff-barlow);
+  /* font-family: var(--ff-goswell); */
   /* font-size: 24px; */
   color: var(--clr-white);
   /* line-height: 31px; */
@@ -162,18 +163,18 @@
 .centre-landing-info {
   max-width: 1200px;
   display: flex;
-  margin: 0px 2em;
+  margin: 0px 1.5em;
 }
 
 .event-info {
-  border: 3px solid black;
+  border: 3px solid var(--clr-black);
   /* border-radius: 10px; */
   /* width: 350px; */
   /* height: 240px; */
   /* margin: 0em 1em; */
   box-shadow: 4px 4px 0px black;
   background-color: var(--clr-white);
-  padding: 1.2rem;
+  padding: 1.25em;
   flex: 1;
   /* margin: 0px 1em; */
 }

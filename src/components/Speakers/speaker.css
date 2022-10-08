@@ -12,10 +12,10 @@
 
 .speaker-card {
   display: flex;
-  box-shadow: 5px 5px 0px var(--clr-white);
+  box-shadow: 5px 5px 0px var(--clr-black);
   border: 3px solid var(--clr-black);
   background-color: var(--clr-white);
-  margin: 3em 0em;
+  margin: 7.5em 0em;
 }
 
 .speaker-img {
