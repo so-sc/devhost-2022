@@ -3,7 +3,7 @@ import './Landing.css'
 // import './Nav.css';
 // import navLogo from '../../assets/nav-logo.png';
 // import Container from '../Container/Container.js';
-import lanlogo from '../../assets/lanlog.png'
+// import lanlogo from '../../assets/lanlog.png'
 // import landingbg from '../../assets/devhost-landing.png'
 import Container from '../Container/Container';
 
@@ -18,16 +18,17 @@ function Landingpage() {
             <div className='landing-transparent-bg'>
               <div className='landing-section'>
                 <div className='landing-content'>
-                  <img className="lan-logo" src={lanlogo} alt="devhost 2022 landing logo" />
+                  {/* <img className="lan-logo" src={lanlogo} alt="devhost 2022 landing logo" />
                   <p className='tagline'>
                     Student Developers Meet
                   </p>
                   <p className='dates'>
-                    July 14'th - July 16'th
-                  </p>
+                    Oct 28'th - Oct 30'th
+                  </p> */}
                   <div className='btns'>
-                  <a href="https://docs.google.com/forms/d/e/1FAIpQLScs-UeEtvNAWTlbPGJxRy_ZNOB0Wzutr9mtUc0olLRiqmkfDA/viewform" target="_blank" rel="noreferrer"><button className='landing-button'>Register Now</button></a>
-                    {/* <button className='landing-button red-button'>Register Now</button> */}
+                    {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLScs-UeEtvNAWTlbPGJxRy_ZNOB0Wzutr9mtUc0olLRiqmkfDA/viewform" target="_blank" rel="noreferrer">
+                    <button className='landing-button red-button'>Register Now</button>
+                    </a> */}
                   </div>
                 </div>
               </div>
