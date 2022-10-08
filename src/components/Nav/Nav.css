@@ -1,6 +1,7 @@
 @import url(../../styles/base.css);
 
 .nav{
+	/* background-color: var(--clr-lime); */
 	background-color: var(--clr-red);
 	height: 7vh;
 	min-height: 50px;
@@ -21,7 +22,7 @@
 	/* display: flex; */
 	/* justify-content: space-between; */
 	/* width: 30%; */
-	color: var(--clr-white);
+	color: var(--clr-black);
 	font-size: 1.3rem;
 	font-weight: 100;
 	font-family: var(--ff-bebas-nue);

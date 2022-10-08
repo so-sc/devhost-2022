@@ -15,6 +15,8 @@
 
 .landing-bg-color {
   background-color: var(--clr-red);
+  /* background-color: var(--clr-lime); */
+  /* background-image: url("../../assets/bg.png"); */
   padding: 2vh 0px 9vh 0px;
   /* border-bottom: 3px solid var(--clr-black); */
   /* height: 70vh; */
@@ -35,7 +37,7 @@
 
 .landing-transparent-bg {
   /* background-color: var(--clr-red); */
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   /* background-image: url(../../assets/devhost-landing.png); */
   /* background-size: cover; */
   /* padding:  0px; */
@@ -61,6 +63,27 @@
   align-items: center;
 }
 
+.presented-by {
+  margin-bottom: 10px;
+}
+
+.presented-by-imgs {
+  display: flex;
+  justify-content: center;
+}
+
+.presented-by-img {
+  height: 45px;
+  padding: 0px 10px;
+}
+
+.presented-by-text {
+  text-align: center;
+  /* font-size: ; */
+  /* font-family: var(--ff-barlow); */
+  color: var(--clr-white);
+}
+
 .lan-logo {
   width: auto;
   max-width: 350px;
@@ -80,7 +103,7 @@
 }
 
 .dates {
-  font-family: var(--ff-bebas-nue);
+  font-family: var(--ff-barlow);
   /* font-size: 24px; */
   color: var(--clr-white);
   /* line-height: 31px; */
