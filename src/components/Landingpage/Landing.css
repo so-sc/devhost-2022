@@ -14,7 +14,10 @@
 } */
 
 .landing-bg-color {
-  background-color: var(--clr-prmbg);
+  /* background-color: var(--clr-red); */
+  background-image: url(../../assets/bg.png);
+  background-size: contain;
+  /* background-image: url("../../assets/bg.png"); */
   padding: 2vh 0px 9vh 0px;
   /* border-bottom: 3px solid var(--clr-black); */
   /* height: 70vh; */
@@ -23,20 +26,24 @@
 
 .landing-bg {
   background-color: var(--clr-prmbg);
-  /* background-image: url(../../assets/devhost-landing.png); */
-  background-image: url(../../assets/DEVHOST-22.png);
-  background-size: 1300px 450px;
+  background-image: url(../../assets/devhost-landing.png);
+  background-size:cover;
+  /* background-pos;   */
+  /* background-image: url(../../assets/DEVHOST-22.png); */
+  /* background-size: 1300px 450px; */
   box-shadow: 4px 4px 0px black;
   /* opacity: 0.5; */
   /* padding:  0px; */
-  border: solid 3px var(--clr-black);
+  /* border: solid 3px var(--clr-black); */
+  border: solid 3px var(--clr-white);
+  /* box-shadow: rgba(255, 255, 255, 0.5) 0px 7px 29px 0px; */
   /* height: 70vh; */
   /* padding-top: 10vh; */
 }
 
 .landing-transparent-bg {
   /* background-color: var(--clr-red); */
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   /* background-image: url(../../assets/devhost-landing.png); */
   /* background-size: cover; */
   /* padding:  0px; */
@@ -62,6 +69,27 @@
   align-items: center;
 }
 
+.presented-by {
+  margin-bottom: 10px;
+}
+
+.presented-by-imgs {
+  display: flex;
+  justify-content: center;
+}
+
+.presented-by-img {
+  height: 45px;
+  padding: 0px 10px;
+}
+
+.presented-by-text {
+  text-align: center;
+  /* font-size: ; */
+  /* font-family: var(--ff-barlow); */
+  color: var(--clr-white);
+}
+
 .lan-logo {
   width: auto;
   max-width: 350px;
@@ -81,7 +109,7 @@
 }
 
 .dates {
-  font-family: var(--ff-bebas-nue);
+  font-family: var(--ff-barlow);
   /* font-size: 24px; */
   color: var(--clr-white);
   /* line-height: 31px; */
@@ -199,8 +227,8 @@
 }
 
 .event-info h2 {
-  text-decoration: underline;
-  text-decoration-color: var(--clr-red);
+  /* text-decoration: underline; */
+  /* text-decoration-color: var(--clr-lime); */
   line-height: 45px;
 }
 
