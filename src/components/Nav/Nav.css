@@ -1,7 +1,7 @@
 @import url(../../styles/base.css);
 
 .nav{
-	background-color: var(--clr-red);
+	background-color: var(--clr-prmbg);
 	height: 7vh;
 	min-height: 50px;
 }
