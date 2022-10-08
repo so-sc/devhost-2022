@@ -1,7 +1,10 @@
 @import url(../../styles/base.css);
 
 .nav{
-	background-color: var(--clr-prmbg);
+	/* background-color: var(--clr-lime); */
+	/* background-color: var(--clr-red); */
+	/* background-image: url(../../assets/bg.png); */
+	/* background-size: cover; */
 	height: 7vh;
 	min-height: 50px;
 }
@@ -11,6 +14,7 @@
 	justify-content: space-between;
 	align-items: center;
 	height: 100%;
+	/* padding-bottom: 100px; */
 }
 
 .nav-logo {
