@@ -17,7 +17,7 @@ function Landingpage() {
   return (
     <section className='landing'>
       <div className='landing-bg-color'>
-        <Nav />
+        {/* <Nav /> */}
         <Container>
           <div className='landing-bg'>
             <div className='landing-transparent-bg'>
