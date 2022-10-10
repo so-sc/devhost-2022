@@ -1,6 +1,6 @@
 import '../../styles/variables.css'
 import './Landing.css'
-import Nav from '../Nav/Nav'
+// import Nav from '../Nav/Nav'
 // import './Nav.css';
 // import navLogo from '../../assets/nav-logo.png';
 // import Container from '../Container/Container.js';
