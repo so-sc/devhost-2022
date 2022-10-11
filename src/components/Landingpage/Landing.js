@@ -1,6 +1,6 @@
 import '../../styles/variables.css'
 import './Landing.css'
-import Nav from '../Nav/Nav'
+// import Nav from '../Nav/Nav'
 // import './Nav.css';
 // import navLogo from '../../assets/nav-logo.png';
 // import Container from '../Container/Container.js';
@@ -17,7 +17,7 @@ function Landingpage() {
   return (
     <section className='landing'>
       <div className='landing-bg-color'>
-        <Nav />
+        {/* <Nav /> */}
         <Container>
           <div className='landing-bg'>
             <div className='landing-transparent-bg'>

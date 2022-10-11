@@ -5,9 +5,10 @@
 }
 
 .speakers h1{
-  background: linear-gradient(to bottom right, var(--clr-clr1), var(--clr-clr2), var(--clr-clr3));
+  /* background: linear-gradient(to bottom right, var(--clr-clr1), var(--clr-clr2), var(--clr-clr3));
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
+  color: var(--clr-lime);
 }
 
 .speaker-card {

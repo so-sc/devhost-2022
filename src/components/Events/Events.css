@@ -2,6 +2,7 @@
    background: linear-gradient(to bottom right, var(--clr-clr1), var(--clr-clr2), var(--clr-clr3));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: white;
 }
 
 .EventCard {
@@ -20,9 +21,11 @@
   padding: 30px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 .Event-role {
   /* font-size: 32px; */
+  /* color: var(--clr-clr3); */
   color: var(--clr-red);
 }
 
@@ -33,15 +36,18 @@
 }
 .Event-time {
   /* font-size: 20px; */
+  font-family: var(--ff-jetbrains);
   color: var(--clr-red);
   margin-bottom: 30px;
 }
-/* .Event-desc{
-    font-size: 25px;
+
+.Event-desc{
+    /* font-size: 25px;
     width: 702px;
-    height: 484px;
-    margin-right: 66px;
-} */
+    height: 484px; */
+    margin-bottom: 20px;
+}
+
 .Event-speaker {
   /* position: relative; */
   /* height: 484px; */
@@ -75,7 +81,7 @@
   background-color: var(--clr-white);
   box-shadow: 3px 4px 0px var(--clr-black);
   border-radius: 30px;
-  border: 1px solid var(--clr-black);
+  border: 1px solid var(--clr-red);
   padding: 7.5px 20px;
   position: relative;
   bottom: 125px;
@@ -84,6 +90,22 @@
 
   /* margin-right: 25px; */
   color: var(--clr-black);
+}
+
+.Event-speaker-linkdln {
+  color: black;
+  font-family: var(--ff-goswell);
+  font-size: 1.5em;
+  /* display: inline; */
+}
+
+.Event-speaker-linkdln:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.Event-speaker-linkdln:visited {
+  color: black;
 }
 /* .tag{
     height: 20px;
