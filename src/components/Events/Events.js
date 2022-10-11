@@ -3,11 +3,15 @@ import './Events.css'
 import {EventList} from './EventsList'
 
 function EventCard ({item,index})  {
+  
+  // let pos = index%2?'row':'row-reverse';
+  
   return (
+    // <div className='EventCard' style={{flexDirection: pos}}>
     <div className='EventCard'>
         <div className='Event-body'>
           <div className='Event-body-top'>
-            <h2 className='Event-role'>{item.role}</h2>
+            <h3 className='Event-role'>[ {item.role} ]</h3>
             <h1 className='Event-heading'> {item.title} </h1>
             <h3 className='Event-time'> {item.time} </h3>
             <p className='Event-desc'> {item.desc} </p>

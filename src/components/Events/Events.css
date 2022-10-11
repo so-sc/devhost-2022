@@ -7,10 +7,9 @@
 
 .EventCard {
   display: flex;
-  flex-direction: row;
   background-color: white;
   /* padding-left: 30px; */
-  border: 4px solid var(--clr-black);
+  /* border: 4px solid var(--clr-black); */
   box-shadow: 5px 5px 0px var(--clr-black);
   margin: 75px 0px;
   /* margin-top: 50px; */
@@ -26,7 +25,9 @@
 .Event-role {
   /* font-size: 32px; */
   /* color: var(--clr-clr3); */
-  color: var(--clr-red);
+  font-family: var(--ff-jetbrains);
+  text-transform: uppercase;
+  color: var(--clr-blue);
 }
 
 .Event-heading {
@@ -36,8 +37,9 @@
 }
 .Event-time {
   /* font-size: 20px; */
+  text-transform: uppercase;
   font-family: var(--ff-jetbrains);
-  color: var(--clr-red);
+  color: var(--clr-blue);
   margin-bottom: 30px;
 }
 
@@ -51,7 +53,7 @@
 .Event-speaker {
   /* position: relative; */
   /* height: 484px; */
-  background-color: var(--clr-red);
+  background-color: var(--clr-blue);
   border-left: 5px solid var(--clr-black);
   display: flex;
   flex-direction: column;
@@ -81,7 +83,6 @@
   background-color: var(--clr-white);
   box-shadow: 3px 4px 0px var(--clr-black);
   border-radius: 30px;
-  border: 1px solid var(--clr-red);
   padding: 7.5px 20px;
   position: relative;
   bottom: 125px;
