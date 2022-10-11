@@ -13,29 +13,26 @@ import './Sponsors.css';
 
 function Sponsorscard({ item, index }) {
     return (
-        <div className="sponsors-card">
-            <img className='sponsors-img' src={item.img} alt={`${item.name} `} />
-        </div>
+      <a className="association-card" href="/">
+        <img className="association-img" src={item.img} alt={`${item.name} `} />
+      </a>
     );
-}
-
-
-function Sponsors() {
+  }
+  
+  function Sponsors() {
     return (
-        <div className='sponsors'>
-            <h1>Sponsors</h1>
-            <div className='sponsors-box'>
-                <ul className='sponsor-img'>
-                    {sponsorsList.map((item, index) => {
-                        return (
-                            <Sponsorscard item={item} index={index} key={index} />
-                        );
-                    })}
-                </ul>
-            </div>
+      <div className="association">
+        <h1>In Association</h1>
+        <div className="association-box">
+          <ul className="asso-img">
+            {sponsorsList.map((item, index) => {
+              return <Sponsorscard item={item} index={index} key={index} />;
+            })}
+          </ul>
         </div>
-
+      </div>
     );
-}
-
-export default Sponsors;
+  }
+  
+  export default Sponsors;
+  
