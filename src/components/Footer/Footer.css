@@ -48,8 +48,7 @@ footer {
     display: flex;
     justify-content: center;
     color: white;
-    /* background: var(--clr-black); */
-    background: #100D14;
+    background: var(--clr-blue);
     font-family: var(--ff-open-sans);
 }
 
