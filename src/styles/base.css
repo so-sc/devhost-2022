@@ -91,7 +91,7 @@ a:hover {
 }
 
 a:visited {
-  color: var(--clr-white);
+  color: var(--clr-prmbg);
 }
 
 @media screen and (max-width: 550px) {

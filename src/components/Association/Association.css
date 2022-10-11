@@ -8,6 +8,8 @@
   background: linear-gradient(to bottom right, var(--clr-clr1), var(--clr-clr2), var(--clr-clr3));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  /* font-family: 'Poppins', sans-serif;
+  font-weight: 600; */
 }
 
 .association-box {
@@ -40,9 +42,16 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   /* height: max-content; */
-  border: 2px solid black;
-  background-color: white;
-  box-shadow: 5px 5px 0px black;
+  border: 2px solid var(--clr-white);
+  /* background-color: white; */
+  /* box-shadow: 5px 5px 0px black; */
+  box-shadow: 5px 5px 0px var(--clr-black);
+  background: rgba(255, 255, 255, 0.2);
+  /* border-radius: 26px; */
+  box-shadow: 0 4px 30px rgba(241, 241, 241, 0.1);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(5px);
+  /* border: 1px solid rgba(255, 255, 255, 0.955); */
 }
 
 .association-img {

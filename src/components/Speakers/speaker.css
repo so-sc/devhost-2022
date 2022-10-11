@@ -23,9 +23,16 @@
   background-color: var(--clr-grey);
   width: 350px;
   max-width: 100%;
+  transition: 0.5s;
+  filter: grayscale(100%);
   height: auto;
   border-right: 3px solid var(--clr-black);
   object-fit: cover;
+}
+
+.speaker-img:hover{
+  cursor: pointer;
+  filter: grayscale(0%);
 }
 
 @media screen and (max-width: 650px) {
