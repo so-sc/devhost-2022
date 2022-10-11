@@ -2,7 +2,7 @@ export const EventList=[
     {
         role: 'Workshop',
         name: 'Jehad mohamed',
-        img: require('../../assets/speakers/jehad.png'),
+        img: require('../../assets/events/jehad.png'),
         link: 'https://github.com/fauwara',
         title: 'DIVE INTO TO THE WORLD OF AR/VR',
         time: '9th June 2022, 2:00 - 3:00 pm',

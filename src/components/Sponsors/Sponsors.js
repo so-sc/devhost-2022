@@ -22,7 +22,7 @@ function Sponsorscard({ item, index }) {
   function Sponsors() {
     return (
       <div className="association">
-        <h1>In Association</h1>
+        <h1>Sponsors</h1>
         <div className="association-box">
           <ul className="asso-img">
             {sponsorsList.map((item, index) => {
