@@ -5,11 +5,11 @@
 }
 
 .speakers h1{
-  /* background: linear-gradient(to bottom right, var(--clr-clr1), var(--clr-clr2), var(--clr-clr3));  
+  background: linear-gradient(to bottom right, var(--clr-clr1), var(--clr-clr2), var(--clr-clr3));  
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+  -webkit-text-fill-color: transparent;
+  /* font-family: 'Poppins', sans-serif;
+  font-weight: 600; */
 }
 
 .speaker-card {
@@ -24,9 +24,16 @@
   background-color: var(--clr-grey);
   width: 350px;
   max-width: 100%;
+  transition: 0.5s;
+  filter: grayscale(100%);
   height: auto;
   border-right: 3px solid var(--clr-black);
   object-fit: cover;
+}
+
+.speaker-img:hover{
+  cursor: pointer;
+  filter: grayscale(0%);
 }
 
 @media screen and (max-width: 650px) {

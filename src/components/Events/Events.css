@@ -1,9 +1,9 @@
 .main-head{
-   /* background: linear-gradient(to bottom right, var(--clr-clr1), var(--clr-clr2), var(--clr-clr3));
+   background: linear-gradient(to bottom right, var(--clr-clr1), var(--clr-clr2), var(--clr-clr3));
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+  -webkit-text-fill-color: transparent;
+  /* font-family: 'Poppins', sans-serif;
+  font-weight: 600; */
 }
 
 .EventCard {
