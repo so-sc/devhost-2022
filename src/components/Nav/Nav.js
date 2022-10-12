@@ -17,7 +17,7 @@ function Nav() {
               </div>
 
               <div className='dev-btn'>
-                <a className='reg-btn' href='https://www.google.com'>
+                <a className='reg-btn'href='/'>
                   HACKNIGHT
                 </a>
               </div>
