@@ -86,9 +86,9 @@ a {
   color: var(--clr-prmbg);
 }
 
-a:hover {
-  /* color: var(--clr-white); */
-}
+/* a:hover {
+  color: var(--clr-white);
+} */
 
 a:visited {
   color: var(--clr-prmbg);
