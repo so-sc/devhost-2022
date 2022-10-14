@@ -83,12 +83,12 @@ button:hover {
 
 a {
   text-decoration: none;
-  color: var(--clr-white);
+  color: var(--clr-prmbg);
 }
 
-a:hover {
+/* a:hover {
   color: var(--clr-white);
-}
+} */
 
 a:visited {
   color: var(--clr-prmbg);

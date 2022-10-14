@@ -11,7 +11,7 @@ function Nav() {
           <div className='nav-items'>
 
               <div className='dev-btn'>
-                <a className='reg-btn' href='https://docs.google.com/forms/d/e/1FAIpQLScs-UeEtvNAWTlbPGJxRy_ZNOB0Wzutr9mtUc0olLRiqmkfDA/viewform'>
+                <a className='reg-btn' href='https://forms.gle/hiYa4fcRCd85E7bY9'>
                   REGISTER NOW
                 </a>
               </div>
