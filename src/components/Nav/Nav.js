@@ -10,24 +10,24 @@ function Nav() {
           <img className="nav-logo" src={navLogo} alt="devhost 2022 navbar logo" />
           <div className='nav-items'>
 
-              <div className='dev-btn'>
-                <a className='reg-btn' href='https://docs.google.com/forms/d/e/1FAIpQLScs-UeEtvNAWTlbPGJxRy_ZNOB0Wzutr9mtUc0olLRiqmkfDA/viewform'>
-                  REGISTER NOW
-                </a>
+            {/* <a className='reg-btn' href='https://docs.google.com/forms/d/e/1FAIpQLScs-UeEtvNAWTlbPGJxRy_ZNOB0Wzutr9mtUc0olLRiqmkfDA/viewform'>
+              <div className='dev-btn-trans'>
+                REGISTER NOW
               </div>
+            </a>
 
+            <a className='reg-btn' href='/'>
               <div className='dev-btn'>
-                <a className='reg-btn'href='/'>
-                  HACKNIGHT
-                </a>
+                HACKNIGHT
               </div>
-            
+            </a> */}
+
 
             {/* <a className="nav-item" href='https://github.com/so-sc/code-of-conduct'>Community Guidlines</a>
-            ・
+            ・ */}
             <a className="nav-item" href='https://github.com/so-sc/code-of-conduct'>Code of Conduct</a>
-            ・
-            <a className="nav-item" href='https://github.com/so-sc/code-of-conduct'>Contact</a> */}
+            {/* ・
+            <a className="nav-item" href='#'>Contact</a> */}
           </div>
         </div>
       </Container>
