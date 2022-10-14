@@ -58,7 +58,7 @@ export const EventList=[
         name: 'Immanuel John',
         img: require('../../assets/events/john.png'),
         link: 'https://github.com/fauwara',
-        title: 'BUIDLing Blockchain',
+        title: 'BUIDLing Crypto Currenncy',
         time: '29th October 2022, 2:00 - 4:00 pm',
         desc: 'Blockchain is a record-keeping technology designed to make it impossible to hack the system or forge the data stored on it, thereby making it secure and immutable. It is a type of distributed ledger technology (DLT), a digital system for recording transactions and related data in multiple places at the same time. We all know that blockchain is used for crypto. So what exactly is blockchain? How is it used? And an interesting session of Create Your Own Cryptocurrency on Ethereum Workshop will be done by John.'
     },
