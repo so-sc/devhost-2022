@@ -16,7 +16,7 @@ function OEventCard ({item,index})  {
             <h3 className='Event-time'> {item.time} </h3>
             <p className='Event-desc'> {item.desc} </p>
           </div>
-          <a className='Event-speaker-linkdln' href={item.link}> linkedin </a>
+          <a className='Event-speaker-linkdln' href={item.link}> Register </a>
         </div>
         <figure className='Event-speaker'>
             <img className='Event-img' src={item.img} alt={`${item.name} speaker`}/>

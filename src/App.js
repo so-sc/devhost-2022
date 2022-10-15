@@ -9,6 +9,7 @@ import Events from './components/Events/Events'
 import Association from './components/Association/Association.js';
 import Sponsors from './components/Sponsors/Sponsors.js';
 import Footer from './components/Footer/Footer.js';
+import OtherEvents from './components/Other-Events/other';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <AboutBody/>
         {/* <Speakers /> */}
         <Events/>
+        <OtherEvents/>
         <Association/>
         <Sponsors/>
       </Container>
