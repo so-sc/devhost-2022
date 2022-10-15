@@ -57,7 +57,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.9rem;
 }
 
 h3 {
@@ -73,17 +73,17 @@ p {
 button {
   border: none;
   outline: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 button:hover {
   text-decoration: underline;
-  text-decoration-color: var(--clr-red);
+  /* text-decoration-color: var(--clr-red); */
 }
 
 a {
   text-decoration: none;
-  color: var(--clr-prmbg);
+  /* color: var(--clr-prmbg); */
 }
 
 /* a:hover {
@@ -91,7 +91,7 @@ a {
 } */
 
 a:visited {
-  color: var(--clr-prmbg);
+  color: var(--clr-white);
 }
 
 @media screen and (max-width: 550px) {

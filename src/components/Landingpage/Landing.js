@@ -40,9 +40,15 @@ function Landingpage() {
                   <p className='dates'>
                     OCT 28<sup>th</sup>  -  OCT 31<sup>st</sup>
                   </p>
-                  {/* <div className='btns'>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScs-UeEtvNAWTlbPGJxRy_ZNOB0Wzutr9mtUc0olLRiqmkfDA/viewform" target="_blank" rel="noreferrer"><button className='landing-button'>Register Now</button></a>
-                  </div> */}
+                  <p className='venue'>
+                    <a href='https://g.page/Sahyadri-edu?share'>
+                    @SCEM
+                    </a>
+                  </p>
+                  <div className='btns'>
+                    <a href="https://forms.gle/hiYa4fcRCd85E7bY9" target="_blank" rel="noreferrer"><button className='landing-button-trans'>Register Now</button></a>
+                    <a href="/" target="_blank" rel="noreferrer"><button className='landing-button'>HackNight</button></a>
+                  </div>
                 </div>
               </div>
             </div>
