@@ -10,21 +10,21 @@ export const EventList=[
     },
     {
         role: 'Talk',
+        name: 'Arnav Agarwal',
+        img: require('../../assets/events/arnav.png'),
+        link: 'https://github.com/fauwara',
+        title: 'Kickstart Machine Learning',
+        time: '28th October 2022, 11:00 - 12:00 pm',
+        desc: 'Its the month of Hacktoberfest. During this month  millions of passionate open source contributors come together and contribute to various open source repositories. During this month many people contribute to ML repositories as well. Machine learning is growing at a rapid pace today. Each and every tech company uses ML in one way or the other. Hence in this session we’ll be learning more about ML in open source .'
+    },
+    {
+        role: 'Talk',
         name: 'Arun Kumar',
         img: require('../../assets/events/arun.png'),
         link: 'https://github.com/fauwara',
         title: 'REACTion Time',
         time: '28th October 2022, 11:00 - 12:00 pm',
         desc: 'ReactJS is the most popular open-source javascript library designed by facebook to create single page web or mobile applications. In this interactive workshop, you’ll learn the basics of what React is, why we need Reactjs and create a front end application together.The workshop will cover details of what exactly is react, Basics of Javascript, how do you interact between components and some knowledge of API integration.'
-    },
-    {
-        role: 'Talk',
-        name: 'Dhivya Elangovan',
-        img: require('../../assets/events/dhivya.png'),
-        link: 'https://github.com/fauwara',
-        title: 'Database and SQL 101',
-        time: '28th October 2022, 11:00 - 12:00 pm',
-        desc: 'Dhivya Elangovan is a Data Engineer. She has more than 3 years of experience as a database developer. She is well versed with all the data handling tools and technologies like Microsoft SQL Server, Oracle Database,PostgreSQL, MySQL and many more.She was working as a Software Developer at Agile Health, Inc. Currently she is working as a Data Engineer at Heptagon Technologies'
     },
     {
         role: 'Workshop',
@@ -52,6 +52,15 @@ export const EventList=[
         title: 'Springing into the world of springboot',
         time: '29th October 2022, 11:00 - 12:00 pm',
         desc: 'Java Spring Boot (Spring Boot) is a tool that makes developing web applications and microservices with Spring Framework faster and easier. It lets you create standalone applications that run on their own, without relying on an external web server. How exactly it is used and what makes it better than other frameworks, all this will be covered in an intriguing session that will be taken up by Varathraj K.'
+    },
+    {
+        role: 'Talk',
+        name: 'Dhivya Elangovan',
+        img: require('../../assets/events/dhivya.png'),
+        link: 'https://github.com/fauwara',
+        title: 'Database and SQL 101',
+        time: '28th October 2022, 11:00 - 12:00 pm',
+        desc: 'Dhivya Elangovan is a Data Engineer. She has more than 3 years of experience as a database developer. She is well versed with all the data handling tools and technologies like Microsoft SQL Server, Oracle Database,PostgreSQL, MySQL and many more.She was working as a Software Developer at Agile Health, Inc. Currently she is working as a Data Engineer at Heptagon Technologies'
     },
     {
         role: 'Talk & Workshop',
