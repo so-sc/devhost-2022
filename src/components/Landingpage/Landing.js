@@ -41,7 +41,7 @@ function Landingpage() {
                     OCT 28<sup>th</sup>  -  OCT 31<sup>st</sup>
                   </p>
                   <p className='venue'>
-                    <a href='https://g.page/Sahyadri-edu?share'>
+                    <a href='https://g.page/Sahyadri-edu?share' class="scem-map">
                     @SCEM
                     </a>
                   </p>
