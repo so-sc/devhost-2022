@@ -11,7 +11,7 @@ export const otherList=[
         role: 'E-Game',
         img: require('../../assets/Other-events/valo.png'),
         time: '28th October 2022',
-        link: 'https://github.com/fauwara',
+        link: 'https://forms.gle/taEsxtqJGN23nm6q6',
         title: 'Valorant',
         desc: 'Gather your teammates and gear up for some action packed matches! Get ready to witness intense clutches and nail biting action at this Valorant Tournament! Only the best of the best shall rise to the top! Exciting prizes await the best team!'
     },
