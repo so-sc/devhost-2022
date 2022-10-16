@@ -58,11 +58,16 @@
 
 .nav-item {
 	/* padding: 0px 10px; */
-	color: var(--clr-lime);
+	color: var(--clr-white);
 }
 
 .nav-item:hover {
 	text-decoration: underline;
+	/* color: var(--clr-background); */
+}
+
+.nav-item:visited {
+	color: var(--clr-white);
 	/* color: var(--clr-background); */
 }
 
