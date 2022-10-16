@@ -47,7 +47,7 @@ function Landingpage() {
                   </p>
                   <div className='btns'>
                     <a href="https://forms.gle/hiYa4fcRCd85E7bY9" target="_blank" rel="noreferrer"><button className='landing-button-trans'>Register Now</button></a>
-                    <a href="/" target="_blank" rel="noreferrer"><button className='landing-button'>HackNight</button></a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfT641VZ8RlnPn0s_fm9zLqMLGPKB3io2JjE1DsArb7KMiKMA/viewform" target="_blank" rel="noreferrer"><button className='landing-button'>HackNight</button></a>
                   </div>
                 </div>
               </div>
