@@ -158,6 +158,14 @@
   /* box-shadow: 3px 3px 0px var(--clr-black); */
 }
 
+
+.scem-map {
+  color: var(--clr-white);
+}
+
+.scem-map:visited {
+  color: var(--clr-white);
+}
 /* .red-button {
   background-color: var(--clr-clr3);
   background-image: linear-gradient(to bottom right, var(--clr-clr1), var(--clr-clr2), var(--clr-clr3));
@@ -221,7 +229,7 @@
 
 @media screen and (max-width: 500px) {
   .lan-logo {
-    max-width: 95%;
+    max-width: 90%;
     padding: 0em 3em;
   }
 
@@ -230,9 +238,9 @@
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 300px) {
   .lan-logo {
-    padding: 0em 1.5em;
+    padding: 0em 1em;
   }
 
   .btns {
