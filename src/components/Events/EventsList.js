@@ -31,7 +31,7 @@ export const EventList=[
         name: 'Jehad mohamed',
         img: require('../../assets/events/jehad.png'),
         link: 'https://www.linkedin.com/in/jehad-ddx/',
-        title: 'DIVE INTO TO THE WORLD OF UI/UX',
+        title: 'DIVE INTO THE WORLD OF UI/UX',
         time: '28th October 2022, 2:00 - 4:00 pm',
         desc: 'Ever wondered how big tech companies develop awesome user interfaces and user experiences? Nowadays due to the shortened attention span of users, effective UI/UX plays a major role in many large companies. UI and UX design are often used interchangeably, but actually they mean very different things. Good UI/UX design is very important for attracting users. Hence join this amazing session to get started and dive deep into the colourful world of UI/UX.'
     },
