@@ -4,7 +4,7 @@ export const otherList=[
         img: require('../../assets/Other-events/hack.png'),
         link: 'https://docs.google.com/forms/d/e/1FAIpQLSfT641VZ8RlnPn0s_fm9zLqMLGPKB3io2JjE1DsArb7KMiKMA/viewform',
         title: 'HackNight',
-        time: '30th October 2022, 8:00 - 4:00 pm ',
+        time: '30th October 2022, 10:00 am ',
         desc: 'HackNight is a 20-hour long hackathon organized by Sahyadri Open Source Community (SOSC) in celebration of Hacktoberfest 2022. Hacktoberfest is open to everyone in our global community. Whether you’re new to development, a student or a long-time contributor, you can help drive growth of open source and make positive contributions to an ever-growing community. All backgrounds and skills levels are encouraged to complete the challenge. Through HackNight over 800+ hackers have developed 200+ projects and have won ₹70000+ in prizes so far.'
     },
     {
