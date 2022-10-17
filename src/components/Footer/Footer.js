@@ -20,7 +20,7 @@ const Footer = () => {
             Sahyadri College of Engineering and Management,
             Adyar, Mangalore - 575007 IN<br /><br />
             sosc@sahyadri.edu.in<br />
-            +91 76248 28176
+            +91 89047 51906
         </div>
       </div>
     </div>
