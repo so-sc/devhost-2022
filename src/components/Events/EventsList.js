@@ -1,11 +1,20 @@
 export const EventList=[
     {
+        role: 'Talk',
+        name: 'Ashia Nagi',
+        img: require('../../assets/events/ashia.png'),
+        link: 'https://github.com/fauwara',
+        title: 'Testing large scale products',
+        time: '28th October 2022, 9:00 - 10:00 am',
+        desc: 'Testing is a very important step in the Software Development Life Cycle. Testing helps us avoid critical errors. In this session you will learn testing basics, testing workflow as well as the types of testing.You will even gain knowledge on how testing is done in companies. So join this amazing session to know the ins and outs of testing.'
+    },
+    {
         role: 'Workshop',
         name: 'Fawaz and Vishnu ',
         img: require('../../assets/events/git.png'),
         link: 'https://github.com/fauwara',
         title: 'Git started with Git & Github',
-        time: '28th October 2022, 9:00 - 10:00 am',
+        time: '28th October 2022, 10:00 - 11:00 am',
         desc: 'The workshop will cover basics of using the Version Control System - Git and how to collaborate effectively on your projects using GitHub. Not just Git push and run but how to tackle difficult situations and how to find help. The workshop will also cover the benefits of being an open source contributor and how to be an open source contributor'
     },
     {
