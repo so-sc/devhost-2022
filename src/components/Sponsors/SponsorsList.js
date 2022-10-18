@@ -1,6 +1,6 @@
 export const sponsorsList = [
     {
-		img: require('../../assets/sponsors/echo 3d.jfif'),
+		img: require('../../assets/sponsors/kk.png'),
     },
     {
 		img: require('../../assets/sponsors/GAR.jfif'),
