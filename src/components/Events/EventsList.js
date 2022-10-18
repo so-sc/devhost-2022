@@ -3,7 +3,7 @@ export const EventList=[
         role: 'Talk',
         name: 'Ashia Nagi',
         img: require('../../assets/events/ashia.png'),
-        link: 'https://github.com/fauwara',
+        link: 'https://www.linkedin.com/in/ashianagi/',
         title: 'Testing large scale products',
         time: '28th October 2022, 9:00 - 10:00 am',
         desc: 'Testing is a very important step in the Software Development Life Cycle. Testing helps us avoid critical errors. In this session you will learn testing basics, testing workflow as well as the types of testing.You will even gain knowledge on how testing is done in companies. So join this amazing session to know the ins and outs of testing.'
@@ -73,8 +73,8 @@ export const EventList=[
     },
     {
         role: 'Talk & Workshop',
-        name: 'Immanuel John',
-        img: require('../../assets/events/john.png'),
+        name: 'John and Monish',
+        img: require('../../assets/events/john-monish.png'),
         link: 'https://www.linkedin.com/in/immanueljohnprofile',
         title: 'BUIDLing Crypto Currenncy',
         time: '29th October 2022, 2:00 - 4:00 pm',
