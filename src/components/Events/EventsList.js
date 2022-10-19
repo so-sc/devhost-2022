@@ -1,14 +1,5 @@
 export const EventList=[
     {
-        role: 'Talk',
-        name: 'Ashia Nagi',
-        img: require('../../assets/events/ashia.png'),
-        link: 'https://www.linkedin.com/in/ashianagi/',
-        title: 'Testing large scale products',
-        time: '28th October 2022, 9:00 - 10:00 am',
-        desc: 'Testing is a very important step in the Software Development Life Cycle. Testing helps us avoid critical errors. In this session you will learn testing basics, testing workflow as well as the types of testing.You will even gain knowledge on how testing is done in companies. So join this amazing session to know the ins and outs of testing.'
-    },
-    {
         role: 'Workshop',
         name: 'Fawaz and Vishnu ',
         img: require('../../assets/events/git.png'),
@@ -37,21 +28,30 @@ export const EventList=[
     },
     {
         role: 'Workshop',
-        name: 'Jehad mohamed',
+        name: 'Jehad Mohamed',
         img: require('../../assets/events/jehad.png'),
         link: 'https://www.linkedin.com/in/jehad-ddx/',
-        title: 'DIVE INTO THE WORLD OF UI/UX',
+        title: 'DIVE INTO THE WORLD OF UX',
         time: '28th October 2022, 2:00 - 4:00 pm',
         desc: 'Ever wondered how big tech companies develop awesome user interfaces and user experiences? Nowadays due to the shortened attention span of users, effective UI/UX plays a major role in many large companies. UI and UX design are often used interchangeably, but actually they mean very different things. Good UI/UX design is very important for attracting users. Hence join this amazing session to get started and dive deep into the colourful world of UI/UX.'
     },
     {
         role: 'Talk',
-        name: 'Navneeth Kumar',
+        name: 'Navneeth Krishna',
         img: require('../../assets/events/navneeth.png'),
         link: 'https://www.linkedin.com/in/navneeth-krishna-b3874412a/',
         title: 'Life after the coding interview',
         time: '29th October 2022, 9:00 - 10:00 am',
         desc: 'Ever wondered what happens after cracking the coding interview? Do you ever wonder how big tech companies operate? Do you want to change domains after starting a job? Do you want to pursue masters in the US? Well, navigating through life after your degree is not as easy as it looks. If you too are worried and have similar questions popping up in your mind, then join this amazing session by Navneeth Kumar.'
+    },
+    {
+        role: 'Talk',
+        name: 'Ashia Nagi',
+        img: require('../../assets/events/ashia.png'),
+        link: 'https://www.linkedin.com/in/ashianagi/',
+        title: 'Testing large scale products',
+        time: '29th October 2022, 9:00 - 10:00 am',
+        desc: 'Testing is a very important step in the Software Development Life Cycle. Testing helps us avoid critical errors. In this session you will learn testing basics, testing workflow as well as the types of testing.You will even gain knowledge on how testing is done in companies. So join this amazing session to know the ins and outs of testing.'
     },
     {
         role: 'Talk',
