@@ -14,7 +14,7 @@ import './Sponsors.css';
 function Sponsorscard({ item, index }) {
     return (
       <a className="association-card" href="/">
-        <img className="association-img" src={item.img} alt={`${item.name} `} />
+        <img className="association-img" src={item.img} alt={`${item.name} `}  />
       </a>
     );
   }
