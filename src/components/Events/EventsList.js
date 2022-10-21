@@ -18,7 +18,7 @@ export const EventList=[
         desc: 'Its the month of Hacktoberfest. During this month  millions of passionate open source contributors come together and contribute to various open source repositories. During this month many people contribute to ML repositories as well. Machine learning is growing at a rapid pace today. Each and every tech company uses ML in one way or the other. Hence in this session we’ll be learning more about ML in open source .'
     },
     {
-        role: 'Talk',
+        role: 'Workshop',
         name: 'Arun Kumar',
         img: require('../../assets/events/arun.png'),
         link: 'https://www.linkedin.com/in/arun-kumar-9912b7165',
@@ -63,7 +63,7 @@ export const EventList=[
         desc: 'Java Spring Boot (Spring Boot) is a tool that makes developing web applications and microservices with Spring Framework faster and easier. It lets you create standalone applications that run on their own, without relying on an external web server. How exactly it is used and what makes it better than other frameworks, all this will be covered in an intriguing session that will be taken up by Varathraj K.'
     },
     {
-        role: 'Talk',
+        role: 'Workshop',
         name: 'Dhivya Elangovan',
         img: require('../../assets/events/dhivya.png'),
         link: 'https://www.linkedin.com/in/dhivya-elangovan-b87363168/',
