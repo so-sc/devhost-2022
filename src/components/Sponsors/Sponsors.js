@@ -13,7 +13,7 @@ import './Sponsors.css';
 
 function Sponsorscard({ item, index }) {
     return (
-      <a className="association-card" href="/">
+      <a className="association-card" href={item.link} target="_blank" rel="noreferrer">
         <img className="association-img" src={item.img} alt={`${item.name} `}  />
       </a>
     );

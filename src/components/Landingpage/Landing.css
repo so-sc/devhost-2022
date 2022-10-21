@@ -221,6 +221,10 @@
     flex-direction: column;
     /* margin: 1rem 1rem; */
   }
+  
+  .btns a{
+    margin-top: 10px;
+  }
 
   /* .landing-button {
     margin: 0.25rem 0px;
