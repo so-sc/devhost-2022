@@ -4,28 +4,28 @@ export const sponsorsList = [
     link: 'https://kalakendradao.org/',
     },
     {
+      img: require('../../assets/sponsors/solbytext.png'),
+      link: 'https://solutionsbytext.com/',
+    },
+    {
 		img: require('../../assets/sponsors/GAR.jfif'),
-    link:'/',
+    link:'https://automationroboticsarduino.com/',
     },
     {
 		img: require('../../assets/sponsors/give my certificate.png'),
-    link: '/',
+    link: 'https://givemycertificate.com/',
     },
     {
 		img: require('../../assets/sponsors/hackclub flag.png'),
-    link: '/',
+    link: 'https://hackclub.com/',
     },
     {
-		img: require('../../assets/sponsors/jetbrains.png'),
-    link: '/',
+		img: require('../../assets/sponsors/echo 3d.jfif'),
+    link: 'https://www.echo3d.co/',
     },
     {
-		img: require('../../assets/sponsors/taskade.png'),
-    link: '/',
-    },
-    {
-		img: require('../../assets/sponsors/Vue school.jfif'),
-    link: '/',
+		img: require('../../assets/sponsors/clouds.png'),
+    link: 'https://sahyadri.edu.in/index.php',
     },
     {
 		img: require('../../assets/sponsors/xyz.png'),
