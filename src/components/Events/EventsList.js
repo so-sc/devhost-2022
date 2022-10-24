@@ -10,7 +10,7 @@ export const EventList=[
     },
     {
         role: 'Talk',
-        name: 'Arnav Agarwal',
+        name: 'Arnav Agrawal',
         img: require('../../assets/events/arnav.png'),
         link: 'https://www.linkedin.com/in/arnavagrawal22/',
         title: 'Kickstart Machine Learning',
