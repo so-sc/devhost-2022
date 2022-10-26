@@ -45,6 +45,7 @@ function Landingpage() {
                     @SCEM
                     </a>
                     <br/>
+                    <br/>
                     Register Now
                   </p>
                   <div className='btns'>
