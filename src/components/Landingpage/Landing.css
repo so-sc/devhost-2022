@@ -265,6 +265,7 @@
 .venue {
   text-align: center;
   color: white;
+  font-weight: 600;
 }
 
 .event-info p {
